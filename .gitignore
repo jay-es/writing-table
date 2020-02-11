@@ -7,3 +7,5 @@
 !.eslintrc.js
 
 *.md
+
+.DS_Store
