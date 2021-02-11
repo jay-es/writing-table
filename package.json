@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/jay-es/writing-table#readme",
   "devDependencies": {
+    "@types/jquery": "3.5.5",
     "@typescript-eslint/eslint-plugin": "2.19.0",
     "@typescript-eslint/parser": "2.19.0",
     "eslint": "6.0.1",
