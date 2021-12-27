@@ -2,6 +2,8 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
+  //ditor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?", // default
+  "editor.wordSeparators": "`~!   %^&*() =+[{]}\\|;:'\",.<>/?、。",
   "files.associations": {
     ".textlintrc": "jsonc"
   },
