@@ -4,18 +4,15 @@ module.exports = {
     browser: true,
     es6: true,
     jquery: true,
-    node: true
+    node: true,
   },
   parser: '@typescript-eslint/parser',
-  extends: [
-    'airbnb-base',
-    'plugin:prettier/recommended'
-  ],
+  extends: ['airbnb-base', 'plugin:prettier/recommended'],
   rules: {
     'func-names': 'off',
     'no-console': ['warn', { allow: ['error'] }],
     'no-continue': 'off',
-    'no-plusplus': ['error', { allowForLoopAfterthoughts: true }] // for文は許可する
+    'no-plusplus': ['error', { allowForLoopAfterthoughts: true }], // for文は許可する
   },
   overrides: [
     {
