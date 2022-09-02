@@ -7,11 +7,19 @@
       }
     },
     "preset-ja-technical-writing": true,
-    "spellcheck-tech-word": true,
+    // "spellcheck-tech-word": true,
+    "ja-technical-writing/sentence-length": false,
+    "ja-technical-writing/max-ten": false,
 
     // Vue のために追加
     "ja-technical-writing/ja-no-mixed-period": {
       "allowPeriodMarks": [":"]
+    },
+    "ja-technical-writing/no-exclamation-question-mark": {
+      "allowFullWidthExclamation": true,
+      "allowFullWidthQuestion": true,
+      "allowHalfWidthExclamation": false,
+      "allowHalfWidthQuestion": false,
     },
     "preset-jtf-style": {
       // "1.1.3.箇条書き": false,
