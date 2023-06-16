@@ -15,6 +15,16 @@
     // "spellcheck-tech-word": true,
     "ja-technical-writing/sentence-length": false,
     "ja-technical-writing/max-ten": false,
+    "ja-technical-writing/ja-no-redundant-expression": {
+      "dictOptions": {
+        "dict1": {
+          "allows": ["ことも"]
+        },
+        "dict2": {
+          "allows": ["ことも", "することはできませ"]
+        },
+      }
+    },
 
     // Vue のために追加
     "ja-technical-writing/ja-no-mixed-period": {
