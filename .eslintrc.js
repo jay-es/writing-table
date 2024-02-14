@@ -7,7 +7,7 @@ module.exports = {
     node: true,
   },
   parser: '@typescript-eslint/parser',
-  extends: ['airbnb-base', 'plugin:prettier/recommended'],
+  extends: ['airbnb-base', 'prettier'],
   rules: {
     'func-names': 'off',
     'no-console': ['warn', { allow: ['error'] }],
@@ -20,7 +20,7 @@ module.exports = {
       extends: [
         'airbnb-base',
         'plugin:@typescript-eslint/recommended',
-        'plugin:prettier/recommended',
+        'prettier',
       ],
     },
   ],
